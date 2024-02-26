@@ -1,0 +1,181 @@
+[6.460s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.460s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff93c032b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff93c01a50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff93c01a50>>)
+[6.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.793s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/groupl/MarcWS'
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.882s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.883s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ignore', 'ignore_ament_install']
+[6.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore_ament_install'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_pkg']
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_pkg'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_meta']
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_meta'
+[6.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ros']
+[6.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ros'
+[6.903s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor' with type 'ros.ament_python' and name 'motor'
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore'
+[6.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore_ament_install'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_pkg']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_pkg'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_meta']
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_meta'
+[6.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ros']
+[6.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ros'
+[6.909s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors' with type 'ros.ament_python' and name 'sensors'
+[6.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.599s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.851s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/groupl/MarcWS/install
+[7.977s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/humble
+[7.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.805s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_args' from command line to 'None'
+[8.805s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target' from command line to 'None'
+[8.805s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.805s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_cache' from command line to 'False'
+[8.805s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_first' from command line to 'False'
+[8.806s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_force_configure' from command line to 'False'
+[8.806s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'ament_cmake_args' from command line to 'None'
+[8.806s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_cmake_args' from command line to 'None'
+[8.806s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.806s] DEBUG:colcon.colcon_core.verb:Building package 'motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/groupl/MarcWS/build/motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/groupl/MarcWS/install/motor', 'merge_install': False, 'path': '/home/groupl/MarcWS/src/motor', 'symlink_install': False, 'test_result_base': None}
+[8.883s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_args' from command line to 'None'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target' from command line to 'None'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_first' from command line to 'False'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_force_configure' from command line to 'False'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'ament_cmake_args' from command line to 'None'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[8.884s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.884s] DEBUG:colcon.colcon_core.verb:Building package 'sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/groupl/MarcWS/build/sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/groupl/MarcWS/install/sensors', 'merge_install': False, 'path': '/home/groupl/MarcWS/src/sensors', 'symlink_install': False, 'test_result_base': None}
+[8.949s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.018s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/groupl/MarcWS/src/motor' with build type 'ament_python'
+[9.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'ament_prefix_path')
+[9.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[9.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/motor/share/motor/hook/ament_prefix_path.ps1'
+[9.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/groupl/MarcWS/install/motor/share/motor/hook/ament_prefix_path.dsv'
+[9.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/motor/share/motor/hook/ament_prefix_path.sh'
+[9.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.501s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/groupl/MarcWS/src/sensors' with build type 'ament_python'
+[9.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'ament_prefix_path')
+[9.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/sensors/share/sensors/hook/ament_prefix_path.ps1'
+[9.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/groupl/MarcWS/install/sensors/share/sensors/hook/ament_prefix_path.dsv'
+[9.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/sensors/share/sensors/hook/ament_prefix_path.sh'
+[9.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.369s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/groupl/MarcWS/src/motor'
+[12.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.922s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/groupl/MarcWS/src/sensors'
+[13.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/groupl/MarcWS/src/motor': PYTHONPATH=/home/groupl/MarcWS/build/motor/prefix_override:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor build --build-base /home/groupl/MarcWS/build/motor/build install --record /home/groupl/MarcWS/build/motor/install.log --single-version-externally-managed
+[16.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/groupl/MarcWS/src/sensors': PYTHONPATH=/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors build --build-base /home/groupl/MarcWS/build/sensors/build install --record /home/groupl/MarcWS/build/sensors/install.log --single-version-externally-managed
+[18.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/groupl/MarcWS/src/motor' returned '0': PYTHONPATH=/home/groupl/MarcWS/build/motor/prefix_override:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor build --build-base /home/groupl/MarcWS/build/motor/build install --record /home/groupl/MarcWS/build/motor/install.log --single-version-externally-managed
+[18.763s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/motor' for CMake module files
+[18.768s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/motor' for CMake config files
+[18.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'cmake_prefix_path')
+[18.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/motor/share/motor/hook/cmake_prefix_path.ps1'
+[18.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/groupl/MarcWS/install/motor/share/motor/hook/cmake_prefix_path.dsv'
+[18.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/motor/share/motor/hook/cmake_prefix_path.sh'
+[18.849s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/motor/lib'
+[18.850s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/motor/bin'
+[18.851s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/motor/lib/pkgconfig/motor.pc'
+[18.852s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages'
+[18.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath')
+[18.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/motor/share/motor/hook/pythonpath.ps1'
+[18.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/groupl/MarcWS/install/motor/share/motor/hook/pythonpath.dsv'
+[18.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/motor/share/motor/hook/pythonpath.sh'
+[18.925s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/motor/bin'
+[18.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[18.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/motor/share/motor/package.ps1'
+[19.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/groupl/MarcWS/install/motor/share/motor/package.dsv'
+[19.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/motor/share/motor/package.sh'
+[19.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/motor/share/motor/package.bash'
+[19.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/motor/share/motor/package.zsh'
+[19.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/groupl/MarcWS/install/motor/share/colcon-core/packages/motor)
+[19.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/groupl/MarcWS/src/sensors' returned '0': PYTHONPATH=/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors build --build-base /home/groupl/MarcWS/build/sensors/build install --record /home/groupl/MarcWS/build/sensors/install.log --single-version-externally-managed
+[19.111s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/sensors' for CMake module files
+[19.113s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/sensors' for CMake config files
+[19.117s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/sensors/lib'
+[19.118s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/sensors/bin'
+[19.118s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/sensors/lib/pkgconfig/sensors.pc'
+[19.119s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages'
+[19.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'pythonpath')
+[19.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/sensors/share/sensors/hook/pythonpath.ps1'
+[19.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/groupl/MarcWS/install/sensors/share/sensors/hook/pythonpath.dsv'
+[19.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/groupl/MarcWS/install/sensors/share/sensors/hook/pythonpath.sh'
+[19.199s] Level 1:colcon.colcon_core.environment:checking '/home/groupl/MarcWS/install/sensors/bin'
+[19.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[19.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/sensors/share/sensors/package.ps1'
+[19.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/groupl/MarcWS/install/sensors/share/sensors/package.dsv'
+[19.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/sensors/share/sensors/package.sh'
+[19.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/sensors/share/sensors/package.bash'
+[19.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/groupl/MarcWS/install/sensors/share/sensors/package.zsh'
+[19.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/groupl/MarcWS/install/sensors/share/colcon-core/packages/sensors)
+[19.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.283s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.459s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.831s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/groupl/MarcWS/install/local_setup.ps1'
+[19.950s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/groupl/MarcWS/install/_local_setup_util_ps1.py'
+[19.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/groupl/MarcWS/install/setup.ps1'
+[20.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/groupl/MarcWS/install/local_setup.sh'
+[20.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/groupl/MarcWS/install/_local_setup_util_sh.py'
+[20.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/groupl/MarcWS/install/setup.sh'
+[20.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/groupl/MarcWS/install/local_setup.bash'
+[20.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/groupl/MarcWS/install/setup.bash'
+[20.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/groupl/MarcWS/install/local_setup.zsh'
+[20.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/groupl/MarcWS/install/setup.zsh'

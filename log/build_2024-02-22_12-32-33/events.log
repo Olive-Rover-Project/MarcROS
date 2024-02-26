@@ -1,0 +1,565 @@
+[0.000000] (-) TimerEvent: {}
+[0.318287] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.318520] (-) TimerEvent: {}
+[0.319931] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.320228] (motor) JobStarted: {'identifier': 'motor'}
+[0.418748] (-) TimerEvent: {}
+[0.523730] (-) TimerEvent: {}
+[0.625184] (-) TimerEvent: {}
+[0.726389] (-) TimerEvent: {}
+[0.827438] (-) TimerEvent: {}
+[0.857426] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.927790] (-) TimerEvent: {}
+[1.028760] (-) TimerEvent: {}
+[1.132270] (-) TimerEvent: {}
+[1.233234] (-) TimerEvent: {}
+[1.335055] (-) TimerEvent: {}
+[1.436007] (-) TimerEvent: {}
+[1.536752] (-) TimerEvent: {}
+[1.637516] (-) TimerEvent: {}
+[1.738209] (-) TimerEvent: {}
+[1.839013] (-) TimerEvent: {}
+[1.939690] (-) TimerEvent: {}
+[2.040370] (-) TimerEvent: {}
+[2.141116] (-) TimerEvent: {}
+[2.241879] (-) TimerEvent: {}
+[2.342721] (-) TimerEvent: {}
+[2.443404] (-) TimerEvent: {}
+[2.544665] (-) TimerEvent: {}
+[2.645721] (-) TimerEvent: {}
+[2.746436] (-) TimerEvent: {}
+[2.847136] (-) TimerEvent: {}
+[2.947916] (-) TimerEvent: {}
+[3.048892] (-) TimerEvent: {}
+[3.150631] (-) TimerEvent: {}
+[3.252166] (-) TimerEvent: {}
+[3.353476] (-) TimerEvent: {}
+[3.454711] (-) TimerEvent: {}
+[3.555801] (-) TimerEvent: {}
+[3.657193] (-) TimerEvent: {}
+[3.758393] (-) TimerEvent: {}
+[3.859391] (-) TimerEvent: {}
+[4.166060] (-) TimerEvent: {}
+[4.267096] (-) TimerEvent: {}
+[4.368017] (-) TimerEvent: {}
+[4.468940] (-) TimerEvent: {}
+[4.569802] (-) TimerEvent: {}
+[4.670811] (-) TimerEvent: {}
+[4.771708] (-) TimerEvent: {}
+[4.872811] (-) TimerEvent: {}
+[4.998695] (-) TimerEvent: {}
+[5.125578] (-) TimerEvent: {}
+[5.226637] (-) TimerEvent: {}
+[5.327702] (-) TimerEvent: {}
+[5.428962] (-) TimerEvent: {}
+[5.530548] (-) TimerEvent: {}
+[5.631955] (-) TimerEvent: {}
+[5.741107] (-) TimerEvent: {}
+[5.843157] (-) TimerEvent: {}
+[5.944606] (-) TimerEvent: {}
+[6.046207] (-) TimerEvent: {}
+[6.147352] (-) TimerEvent: {}
+[6.248249] (-) TimerEvent: {}
+[6.349324] (-) TimerEvent: {}
+[6.450755] (-) TimerEvent: {}
+[6.551622] (-) TimerEvent: {}
+[6.652750] (-) TimerEvent: {}
+[6.753868] (-) TimerEvent: {}
+[6.855108] (-) TimerEvent: {}
+[6.956323] (-) TimerEvent: {}
+[7.057522] (-) TimerEvent: {}
+[7.158716] (-) TimerEvent: {}
+[7.259874] (-) TimerEvent: {}
+[7.361053] (-) TimerEvent: {}
+[7.462232] (-) TimerEvent: {}
+[7.563448] (-) TimerEvent: {}
+[7.664630] (-) TimerEvent: {}
+[7.765852] (-) TimerEvent: {}
+[7.867086] (-) TimerEvent: {}
+[7.968150] (-) TimerEvent: {}
+[8.068952] (-) TimerEvent: {}
+[8.170160] (-) TimerEvent: {}
+[8.271437] (-) TimerEvent: {}
+[8.372682] (-) TimerEvent: {}
+[8.473880] (-) TimerEvent: {}
+[8.575136] (-) TimerEvent: {}
+[8.676346] (-) TimerEvent: {}
+[8.777396] (-) TimerEvent: {}
+[8.878142] (-) TimerEvent: {}
+[8.979024] (-) TimerEvent: {}
+[9.080025] (-) TimerEvent: {}
+[9.180989] (-) TimerEvent: {}
+[9.281888] (-) TimerEvent: {}
+[9.383185] (-) TimerEvent: {}
+[9.484426] (-) TimerEvent: {}
+[9.586218] (-) TimerEvent: {}
+[9.687413] (-) TimerEvent: {}
+[9.788380] (-) TimerEvent: {}
+[9.895560] (-) TimerEvent: {}
+[9.996553] (-) TimerEvent: {}
+[10.097433] (-) TimerEvent: {}
+[10.198514] (-) TimerEvent: {}
+[10.299586] (-) TimerEvent: {}
+[10.400627] (-) TimerEvent: {}
+[10.501857] (-) TimerEvent: {}
+[10.603049] (-) TimerEvent: {}
+[10.704326] (-) TimerEvent: {}
+[10.805335] (-) TimerEvent: {}
+[10.906269] (-) TimerEvent: {}
+[11.007291] (-) TimerEvent: {}
+[11.108317] (-) TimerEvent: {}
+[11.209403] (-) TimerEvent: {}
+[11.310762] (-) TimerEvent: {}
+[11.412832] (-) TimerEvent: {}
+[11.513717] (-) TimerEvent: {}
+[11.614605] (-) TimerEvent: {}
+[11.715322] (-) TimerEvent: {}
+[11.816162] (-) TimerEvent: {}
+[11.917675] (-) TimerEvent: {}
+[12.020002] (-) TimerEvent: {}
+[12.120731] (-) TimerEvent: {}
+[12.221505] (-) TimerEvent: {}
+[12.322406] (-) TimerEvent: {}
+[12.423228] (-) TimerEvent: {}
+[12.524026] (-) TimerEvent: {}
+[12.624915] (-) TimerEvent: {}
+[12.725602] (-) TimerEvent: {}
+[12.826276] (-) TimerEvent: {}
+[12.927026] (-) TimerEvent: {}
+[13.027873] (-) TimerEvent: {}
+[13.128819] (-) TimerEvent: {}
+[13.229630] (-) TimerEvent: {}
+[13.330424] (-) TimerEvent: {}
+[13.431395] (-) TimerEvent: {}
+[13.532476] (-) TimerEvent: {}
+[13.633632] (-) TimerEvent: {}
+[13.735044] (-) TimerEvent: {}
+[13.836271] (-) TimerEvent: {}
+[13.937033] (-) TimerEvent: {}
+[14.037971] (-) TimerEvent: {}
+[14.139654] (-) TimerEvent: {}
+[14.240700] (-) TimerEvent: {}
+[14.341814] (-) TimerEvent: {}
+[14.443160] (-) TimerEvent: {}
+[14.557171] (-) TimerEvent: {}
+[14.657988] (-) TimerEvent: {}
+[14.758834] (-) TimerEvent: {}
+[14.859895] (-) TimerEvent: {}
+[14.961098] (-) TimerEvent: {}
+[15.062091] (-) TimerEvent: {}
+[15.864188] (-) TimerEvent: {}
+[15.965052] (-) TimerEvent: {}
+[16.065958] (-) TimerEvent: {}
+[16.166866] (-) TimerEvent: {}
+[16.267788] (-) TimerEvent: {}
+[16.368911] (-) TimerEvent: {}
+[16.469926] (-) TimerEvent: {}
+[16.571089] (-) TimerEvent: {}
+[16.672181] (-) TimerEvent: {}
+[16.773306] (-) TimerEvent: {}
+[16.874288] (-) TimerEvent: {}
+[16.975727] (-) TimerEvent: {}
+[17.076817] (-) TimerEvent: {}
+[17.177601] (-) TimerEvent: {}
+[17.278401] (-) TimerEvent: {}
+[17.379197] (-) TimerEvent: {}
+[17.479975] (-) TimerEvent: {}
+[17.581129] (-) TimerEvent: {}
+[17.682931] (-) TimerEvent: {}
+[17.783837] (-) TimerEvent: {}
+[17.885206] (-) TimerEvent: {}
+[17.986265] (-) TimerEvent: {}
+[18.087095] (-) TimerEvent: {}
+[18.187941] (-) TimerEvent: {}
+[18.288754] (-) TimerEvent: {}
+[18.389648] (-) TimerEvent: {}
+[18.490652] (-) TimerEvent: {}
+[18.591471] (-) TimerEvent: {}
+[18.692310] (-) TimerEvent: {}
+[18.793189] (-) TimerEvent: {}
+[18.894100] (-) TimerEvent: {}
+[18.995031] (-) TimerEvent: {}
+[19.095925] (-) TimerEvent: {}
+[19.197219] (-) TimerEvent: {}
+[19.298750] (-) TimerEvent: {}
+[19.399757] (-) TimerEvent: {}
+[19.500592] (-) TimerEvent: {}
+[19.601523] (-) TimerEvent: {}
+[19.702750] (-) TimerEvent: {}
+[19.803665] (-) TimerEvent: {}
+[19.904474] (-) TimerEvent: {}
+[20.005352] (-) TimerEvent: {}
+[20.106050] (-) TimerEvent: {}
+[20.206891] (-) TimerEvent: {}
+[20.307926] (-) TimerEvent: {}
+[20.408741] (-) TimerEvent: {}
+[20.509728] (-) TimerEvent: {}
+[20.610490] (-) TimerEvent: {}
+[20.711393] (-) TimerEvent: {}
+[20.812565] (-) TimerEvent: {}
+[20.913969] (-) TimerEvent: {}
+[21.047043] (-) TimerEvent: {}
+[21.181847] (-) TimerEvent: {}
+[21.297950] (-) TimerEvent: {}
+[21.400822] (-) TimerEvent: {}
+[21.501793] (-) TimerEvent: {}
+[21.602866] (-) TimerEvent: {}
+[21.704379] (-) TimerEvent: {}
+[21.809446] (-) TimerEvent: {}
+[21.966630] (-) TimerEvent: {}
+[22.124693] (-) TimerEvent: {}
+[22.231335] (-) TimerEvent: {}
+[22.332325] (-) TimerEvent: {}
+[22.539189] (-) TimerEvent: {}
+[22.639937] (-) TimerEvent: {}
+[22.740842] (-) TimerEvent: {}
+[22.842051] (-) TimerEvent: {}
+[22.943335] (-) TimerEvent: {}
+[23.044510] (-) TimerEvent: {}
+[23.145595] (-) TimerEvent: {}
+[23.246851] (-) TimerEvent: {}
+[23.348017] (-) TimerEvent: {}
+[23.449181] (-) TimerEvent: {}
+[23.550029] (-) TimerEvent: {}
+[23.651091] (-) TimerEvent: {}
+[23.752320] (-) TimerEvent: {}
+[23.853523] (-) TimerEvent: {}
+[23.954494] (-) TimerEvent: {}
+[24.056239] (-) TimerEvent: {}
+[24.157510] (-) TimerEvent: {}
+[24.258306] (-) TimerEvent: {}
+[24.359362] (-) TimerEvent: {}
+[24.460392] (-) TimerEvent: {}
+[24.561267] (-) TimerEvent: {}
+[24.662160] (-) TimerEvent: {}
+[24.763087] (-) TimerEvent: {}
+[24.863995] (-) TimerEvent: {}
+[24.965259] (-) TimerEvent: {}
+[25.143848] (-) TimerEvent: {}
+[25.245072] (-) TimerEvent: {}
+[25.346257] (-) TimerEvent: {}
+[25.447455] (-) TimerEvent: {}
+[25.548557] (-) TimerEvent: {}
+[25.649641] (-) TimerEvent: {}
+[25.750727] (-) TimerEvent: {}
+[25.851458] (-) TimerEvent: {}
+[25.952574] (-) TimerEvent: {}
+[26.053950] (-) TimerEvent: {}
+[26.155056] (-) TimerEvent: {}
+[26.255870] (-) TimerEvent: {}
+[26.356625] (-) TimerEvent: {}
+[26.458148] (-) TimerEvent: {}
+[26.561486] (-) TimerEvent: {}
+[26.662241] (-) TimerEvent: {}
+[26.763451] (-) TimerEvent: {}
+[26.864846] (-) TimerEvent: {}
+[26.965860] (-) TimerEvent: {}
+[27.066680] (-) TimerEvent: {}
+[27.167677] (-) TimerEvent: {}
+[27.268658] (-) TimerEvent: {}
+[27.369607] (-) TimerEvent: {}
+[27.470492] (-) TimerEvent: {}
+[27.571304] (-) TimerEvent: {}
+[27.672205] (-) TimerEvent: {}
+[27.773211] (-) TimerEvent: {}
+[27.874128] (-) TimerEvent: {}
+[27.975116] (-) TimerEvent: {}
+[28.076592] (-) TimerEvent: {}
+[28.177417] (-) TimerEvent: {}
+[28.279029] (-) TimerEvent: {}
+[28.380260] (-) TimerEvent: {}
+[28.481416] (-) TimerEvent: {}
+[28.582640] (-) TimerEvent: {}
+[28.683657] (-) TimerEvent: {}
+[28.785130] (-) TimerEvent: {}
+[28.886118] (-) TimerEvent: {}
+[28.986907] (-) TimerEvent: {}
+[29.087809] (-) TimerEvent: {}
+[29.188589] (-) TimerEvent: {}
+[29.289680] (-) TimerEvent: {}
+[29.390602] (-) TimerEvent: {}
+[29.491317] (-) TimerEvent: {}
+[29.592130] (-) TimerEvent: {}
+[29.692899] (-) TimerEvent: {}
+[29.793591] (-) TimerEvent: {}
+[29.894471] (-) TimerEvent: {}
+[29.995787] (-) TimerEvent: {}
+[30.097023] (-) TimerEvent: {}
+[30.198164] (-) TimerEvent: {}
+[30.299268] (-) TimerEvent: {}
+[30.421814] (-) TimerEvent: {}
+[30.530605] (-) TimerEvent: {}
+[30.631287] (-) TimerEvent: {}
+[30.732054] (-) TimerEvent: {}
+[30.833185] (-) TimerEvent: {}
+[30.938190] (-) TimerEvent: {}
+[31.039326] (-) TimerEvent: {}
+[31.140122] (-) TimerEvent: {}
+[31.241318] (-) TimerEvent: {}
+[31.342524] (-) TimerEvent: {}
+[31.443431] (-) TimerEvent: {}
+[31.544333] (-) TimerEvent: {}
+[31.645375] (-) TimerEvent: {}
+[31.746458] (-) TimerEvent: {}
+[31.847675] (-) TimerEvent: {}
+[31.948837] (-) TimerEvent: {}
+[32.049646] (-) TimerEvent: {}
+[32.150731] (-) TimerEvent: {}
+[32.251508] (-) TimerEvent: {}
+[32.352926] (-) TimerEvent: {}
+[32.453772] (-) TimerEvent: {}
+[32.554803] (-) TimerEvent: {}
+[32.656146] (-) TimerEvent: {}
+[32.757178] (-) TimerEvent: {}
+[32.857977] (-) TimerEvent: {}
+[32.958818] (-) TimerEvent: {}
+[33.059926] (-) TimerEvent: {}
+[33.160836] (-) TimerEvent: {}
+[33.261897] (-) TimerEvent: {}
+[33.362681] (-) TimerEvent: {}
+[33.463542] (-) TimerEvent: {}
+[33.564530] (-) TimerEvent: {}
+[33.665556] (-) TimerEvent: {}
+[33.766472] (-) TimerEvent: {}
+[33.867287] (-) TimerEvent: {}
+[33.968018] (-) TimerEvent: {}
+[34.068741] (-) TimerEvent: {}
+[34.169508] (-) TimerEvent: {}
+[34.270706] (-) TimerEvent: {}
+[34.371571] (-) TimerEvent: {}
+[34.472368] (-) TimerEvent: {}
+[34.573301] (-) TimerEvent: {}
+[34.674457] (-) TimerEvent: {}
+[34.992228] (-) TimerEvent: {}
+[35.093427] (-) TimerEvent: {}
+[35.195073] (-) TimerEvent: {}
+[35.296833] (-) TimerEvent: {}
+[35.397756] (-) TimerEvent: {}
+[35.498667] (-) TimerEvent: {}
+[35.599666] (-) TimerEvent: {}
+[35.709055] (-) TimerEvent: {}
+[35.809866] (-) TimerEvent: {}
+[35.910681] (-) TimerEvent: {}
+[36.011758] (-) TimerEvent: {}
+[36.113055] (-) TimerEvent: {}
+[36.215383] (-) TimerEvent: {}
+[36.316161] (-) TimerEvent: {}
+[36.417089] (-) TimerEvent: {}
+[36.518467] (-) TimerEvent: {}
+[36.619377] (-) TimerEvent: {}
+[37.283729] (-) TimerEvent: {}
+[37.384879] (-) TimerEvent: {}
+[37.485655] (-) TimerEvent: {}
+[37.586586] (-) TimerEvent: {}
+[37.687588] (-) TimerEvent: {}
+[37.788386] (-) TimerEvent: {}
+[37.889411] (-) TimerEvent: {}
+[37.990832] (-) TimerEvent: {}
+[38.092457] (-) TimerEvent: {}
+[38.193363] (-) TimerEvent: {}
+[38.294169] (-) TimerEvent: {}
+[38.395388] (-) TimerEvent: {}
+[38.496245] (-) TimerEvent: {}
+[38.597307] (-) TimerEvent: {}
+[38.698509] (-) TimerEvent: {}
+[38.799681] (-) TimerEvent: {}
+[38.900997] (-) TimerEvent: {}
+[39.002097] (-) TimerEvent: {}
+[39.102964] (-) TimerEvent: {}
+[39.203947] (-) TimerEvent: {}
+[39.304754] (-) TimerEvent: {}
+[39.405672] (-) TimerEvent: {}
+[39.506585] (-) TimerEvent: {}
+[39.607839] (-) TimerEvent: {}
+[39.708979] (-) TimerEvent: {}
+[39.810132] (-) TimerEvent: {}
+[39.911220] (-) TimerEvent: {}
+[40.012193] (-) TimerEvent: {}
+[40.113102] (-) TimerEvent: {}
+[40.213917] (-) TimerEvent: {}
+[40.314795] (-) TimerEvent: {}
+[40.415779] (-) TimerEvent: {}
+[40.516541] (-) TimerEvent: {}
+[40.617646] (-) TimerEvent: {}
+[40.718511] (-) TimerEvent: {}
+[40.819237] (-) TimerEvent: {}
+[40.919918] (-) TimerEvent: {}
+[41.020623] (-) TimerEvent: {}
+[41.121694] (-) TimerEvent: {}
+[41.222505] (-) TimerEvent: {}
+[41.323299] (-) TimerEvent: {}
+[41.424028] (-) TimerEvent: {}
+[41.524752] (-) TimerEvent: {}
+[41.625560] (-) TimerEvent: {}
+[41.726528] (-) TimerEvent: {}
+[41.827249] (-) TimerEvent: {}
+[41.928120] (-) TimerEvent: {}
+[42.028985] (-) TimerEvent: {}
+[42.129703] (-) TimerEvent: {}
+[42.230378] (-) TimerEvent: {}
+[42.331208] (-) TimerEvent: {}
+[42.432333] (-) TimerEvent: {}
+[42.533159] (-) TimerEvent: {}
+[42.634529] (-) TimerEvent: {}
+[42.735813] (-) TimerEvent: {}
+[42.836755] (-) TimerEvent: {}
+[42.937364] (-) TimerEvent: {}
+[43.037965] (-) TimerEvent: {}
+[43.138614] (-) TimerEvent: {}
+[43.239177] (-) TimerEvent: {}
+[43.339551] (-) TimerEvent: {}
+[43.439997] (-) TimerEvent: {}
+[43.540434] (-) TimerEvent: {}
+[43.640958] (-) TimerEvent: {}
+[43.741365] (-) TimerEvent: {}
+[43.841846] (-) TimerEvent: {}
+[43.942846] (-) TimerEvent: {}
+[44.043659] (-) TimerEvent: {}
+[44.144416] (-) TimerEvent: {}
+[44.245625] (-) TimerEvent: {}
+[44.346903] (-) TimerEvent: {}
+[44.447714] (-) TimerEvent: {}
+[44.548570] (-) TimerEvent: {}
+[44.649751] (-) TimerEvent: {}
+[44.750943] (-) TimerEvent: {}
+[44.851773] (-) TimerEvent: {}
+[44.952639] (-) TimerEvent: {}
+[45.054195] (-) TimerEvent: {}
+[45.155505] (-) TimerEvent: {}
+[45.256851] (-) TimerEvent: {}
+[45.357606] (-) TimerEvent: {}
+[45.458477] (-) TimerEvent: {}
+[45.559480] (-) TimerEvent: {}
+[45.660319] (-) TimerEvent: {}
+[45.761068] (-) TimerEvent: {}
+[45.861858] (-) TimerEvent: {}
+[46.240202] (-) TimerEvent: {}
+[47.160003] (-) TimerEvent: {}
+[47.313799] (-) TimerEvent: {}
+[47.440208] (-) TimerEvent: {}
+[47.540992] (-) TimerEvent: {}
+[47.641982] (-) TimerEvent: {}
+[47.744357] (-) TimerEvent: {}
+[47.845847] (-) TimerEvent: {}
+[47.948084] (-) TimerEvent: {}
+[48.048881] (-) TimerEvent: {}
+[48.155384] (-) TimerEvent: {}
+[48.272204] (-) TimerEvent: {}
+[48.376004] (-) TimerEvent: {}
+[48.505382] (-) TimerEvent: {}
+[48.528300] (motor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor', 'build', '--build-base', '/home/groupl/MarcWS/build/motor/build', 'install', '--record', '/home/groupl/MarcWS/build/motor/install.log', '--single-version-externally-managed'], 'cwd': '/home/groupl/MarcWS/src/motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'groupl', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/groupl', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1503', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=39d3ef5b35e3d994ddd011f865d73a2b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/groupl/MarcWS/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'groupl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'groupl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grouplPi:@/tmp/.ICE-unix/1503,unix/grouplPi:/tmp/.ICE-unix/1503', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9ac0259f_4df2_4934_852b_0302dfe7407e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/motor:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/groupl/MarcWS/build/motor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=39d3ef5b35e3d994ddd011f865d73a2b', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/groupl/MarcWS/build/motor/prefix_override:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/groupl/MarcWS/install/motor'}, 'shell': False}
+[48.759617] (-) TimerEvent: {}
+[48.866652] (-) TimerEvent: {}
+[49.002643] (-) TimerEvent: {}
+[49.038196] (sensors) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors', 'build', '--build-base', '/home/groupl/MarcWS/build/sensors/build', 'install', '--record', '/home/groupl/MarcWS/build/sensors/install.log', '--single-version-externally-managed'], 'cwd': '/home/groupl/MarcWS/src/sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'groupl', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/groupl', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1503', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=39d3ef5b35e3d994ddd011f865d73a2b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/groupl/MarcWS/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'groupl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'groupl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grouplPi:@/tmp/.ICE-unix/1503,unix/grouplPi:/tmp/.ICE-unix/1503', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9ac0259f_4df2_4934_852b_0302dfe7407e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/motor:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/groupl/MarcWS/build/sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=39d3ef5b35e3d994ddd011f865d73a2b', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/groupl/MarcWS/install/motor'}, 'shell': False}
+[49.111771] (-) TimerEvent: {}
+[49.212492] (-) TimerEvent: {}
+[49.318590] (-) TimerEvent: {}
+[49.419404] (-) TimerEvent: {}
+[49.828418] (-) TimerEvent: {}
+[49.929593] (-) TimerEvent: {}
+[50.030599] (-) TimerEvent: {}
+[50.131407] (-) TimerEvent: {}
+[50.232438] (-) TimerEvent: {}
+[50.333373] (-) TimerEvent: {}
+[50.434209] (-) TimerEvent: {}
+[50.534975] (-) TimerEvent: {}
+[50.635751] (-) TimerEvent: {}
+[50.736766] (-) TimerEvent: {}
+[50.837582] (-) TimerEvent: {}
+[50.938487] (-) TimerEvent: {}
+[51.039301] (-) TimerEvent: {}
+[51.140131] (-) TimerEvent: {}
+[51.240908] (-) TimerEvent: {}
+[51.342539] (-) TimerEvent: {}
+[51.443425] (-) TimerEvent: {}
+[51.544193] (-) TimerEvent: {}
+[51.645044] (-) TimerEvent: {}
+[51.745835] (-) TimerEvent: {}
+[51.846742] (-) TimerEvent: {}
+[51.947488] (-) TimerEvent: {}
+[52.048235] (-) TimerEvent: {}
+[52.149043] (-) TimerEvent: {}
+[52.249861] (-) TimerEvent: {}
+[52.350602] (-) TimerEvent: {}
+[52.451412] (-) TimerEvent: {}
+[52.556020] (motor) StdoutLine: {'line': b'running egg_info\n'}
+[52.560618] (-) TimerEvent: {}
+[52.562262] (motor) StdoutLine: {'line': b'writing ../../build/motor/motor.egg-info/PKG-INFO\n'}
+[52.563010] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[52.563736] (sensors) StdoutLine: {'line': b'writing ../../build/sensors/sensors.egg-info/PKG-INFO\n'}
+[52.564722] (sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt\n'}
+[52.565042] (sensors) StdoutLine: {'line': b'writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt\n'}
+[52.565322] (sensors) StdoutLine: {'line': b'writing requirements to ../../build/sensors/sensors.egg-info/requires.txt\n'}
+[52.565594] (sensors) StdoutLine: {'line': b'writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt\n'}
+[52.565862] (motor) StdoutLine: {'line': b'writing dependency_links to ../../build/motor/motor.egg-info/dependency_links.txt\n'}
+[52.566145] (motor) StdoutLine: {'line': b'writing entry points to ../../build/motor/motor.egg-info/entry_points.txt\n'}
+[52.566477] (motor) StdoutLine: {'line': b'writing requirements to ../../build/motor/motor.egg-info/requires.txt\n'}
+[52.566771] (motor) StdoutLine: {'line': b'writing top-level names to ../../build/motor/motor.egg-info/top_level.txt\n'}
+[52.581515] (motor) StdoutLine: {'line': b"reading manifest file '../../build/motor/motor.egg-info/SOURCES.txt'\n"}
+[52.582387] (sensors) StdoutLine: {'line': b"reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[52.587271] (motor) StdoutLine: {'line': b"writing manifest file '../../build/motor/motor.egg-info/SOURCES.txt'\n"}
+[52.587914] (sensors) StdoutLine: {'line': b"writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[52.590169] (sensors) StdoutLine: {'line': b'running build\n'}
+[52.590874] (sensors) StdoutLine: {'line': b'running build_py\n'}
+[52.591515] (motor) StdoutLine: {'line': b'running build\n'}
+[52.592594] (motor) StdoutLine: {'line': b'running build_py\n'}
+[52.598158] (motor) StdoutLine: {'line': b'copying motor/motorpwm.py -> /home/groupl/MarcWS/build/motor/build/lib/motor\n'}
+[52.598998] (sensors) StdoutLine: {'line': b'running install\n'}
+[52.601883] (sensors) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[52.606844] (sensors) StderrLine: {'line': b'  warnings.warn(\n'}
+[52.607774] (motor) StdoutLine: {'line': b'running install\n'}
+[52.608242] (sensors) StdoutLine: {'line': b'running install_lib\n'}
+[52.608645] (motor) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[52.609375] (motor) StderrLine: {'line': b'  warnings.warn(\n'}
+[52.609727] (motor) StdoutLine: {'line': b'running install_lib\n'}
+[52.610079] (motor) StdoutLine: {'line': b'copying /home/groupl/MarcWS/build/motor/build/lib/motor/motorpwm.py -> /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor\n'}
+[52.614132] (motor) StdoutLine: {'line': b'byte-compiling /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor/motorpwm.py to motorpwm.cpython-310.pyc\n'}
+[52.615226] (sensors) StdoutLine: {'line': b'running install_data\n'}
+[52.615713] (motor) StderrLine: {'line': b"Sorry: IndentationError: expected an indented block after 'while' statement on line 14 (motorpwm.py, line 28)\n"}
+[52.616263] (motor) StdoutLine: {'line': b'running install_data\n'}
+[52.621727] (sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[52.622903] (motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[52.635170] (motor) StdoutLine: {'line': b"removing '/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[52.635853] (sensors) StdoutLine: {'line': b"removing '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[52.638009] (sensors) StdoutLine: {'line': b'Copying ../../build/sensors/sensors.egg-info to /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info\n'}
+[52.638649] (motor) StdoutLine: {'line': b'Copying ../../build/motor/motor.egg-info to /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info\n'}
+[52.645160] (motor) StdoutLine: {'line': b'running install_scripts\n'}
+[52.646095] (sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[52.661684] (-) TimerEvent: {}
+[52.764601] (-) TimerEvent: {}
+[52.865388] (-) TimerEvent: {}
+[52.966402] (-) TimerEvent: {}
+[53.067184] (-) TimerEvent: {}
+[53.168011] (-) TimerEvent: {}
+[53.189943] (sensors) StdoutLine: {'line': b'Installing serialread script to /home/groupl/MarcWS/install/sensors/lib/sensors\n'}
+[53.212271] (motor) StdoutLine: {'line': b'Installing motorpwm script to /home/groupl/MarcWS/install/motor/lib/motor\n'}
+[53.213167] (motor) StdoutLine: {'line': b"writing list of installed files to '/home/groupl/MarcWS/build/motor/install.log'\n"}
+[53.215865] (sensors) StdoutLine: {'line': b"writing list of installed files to '/home/groupl/MarcWS/build/sensors/install.log'\n"}
+[53.268547] (-) TimerEvent: {}
+[53.370423] (-) TimerEvent: {}
+[53.432995] (motor) CommandEnded: {'returncode': 0}
+[53.479022] (-) TimerEvent: {}
+[53.595669] (-) TimerEvent: {}
+[53.707413] (-) TimerEvent: {}
+[53.808801] (-) TimerEvent: {}
+[53.922816] (-) TimerEvent: {}
+[54.050582] (-) TimerEvent: {}
+[54.217693] (-) TimerEvent: {}
+[54.318963] (-) TimerEvent: {}
+[54.430752] (-) TimerEvent: {}
+[54.547555] (-) TimerEvent: {}
+[54.648813] (-) TimerEvent: {}
+[54.771183] (-) TimerEvent: {}
+[54.874032] (-) TimerEvent: {}
+[54.983733] (-) TimerEvent: {}
+[55.027313] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[55.040328] (sensors) CommandEnded: {'returncode': 0}
+[55.090124] (-) TimerEvent: {}
+[55.192816] (-) TimerEvent: {}
+[55.307469] (-) TimerEvent: {}
+[55.417173] (-) TimerEvent: {}
+[55.530393] (-) TimerEvent: {}
+[55.576634] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[55.756458] (-) TimerEvent: {}
+[55.756844] (-) EventReactorShutdown: {}

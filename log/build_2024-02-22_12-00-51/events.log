@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.001032] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001249] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.001626] (motor) JobStarted: {'identifier': 'motor'}
+[0.097795] (-) TimerEvent: {}
+[0.198461] (-) TimerEvent: {}
+[0.299212] (-) TimerEvent: {}
+[0.361646] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.400377] (-) TimerEvent: {}
+[0.502268] (-) TimerEvent: {}
+[0.603781] (-) TimerEvent: {}
+[0.704728] (-) TimerEvent: {}
+[0.806194] (-) TimerEvent: {}
+[0.846878] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.848614] (motor) Command: {'cmd': ['/usr/bin/cmake', '/home/groupl/MarcWS/src/motor', '-DCMAKE_INSTALL_PREFIX=/home/groupl/MarcWS/install/motor'], 'cwd': '/home/groupl/MarcWS/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'groupl'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/groupl'), ('OLDPWD', '/home/groupl'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1486'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/groupl/MarcWS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'groupl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'groupl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/grouplPi:@/tmp/.ICE-unix/1486,unix/grouplPi:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69a8b579_6169_47ac_bdfe_d9498ae3a9f6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '47'), ('AMENT_PREFIX_PATH', '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/groupl/MarcWS/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble')]), 'shell': False}
+[0.906394] (-) TimerEvent: {}
+[1.007136] (-) TimerEvent: {}
+[1.107936] (-) TimerEvent: {}
+[1.208849] (-) TimerEvent: {}
+[1.309881] (-) TimerEvent: {}
+[1.410878] (-) TimerEvent: {}
+[1.511742] (-) TimerEvent: {}
+[1.613037] (-) TimerEvent: {}
+[1.714168] (-) TimerEvent: {}
+[1.815111] (-) TimerEvent: {}
+[1.916163] (-) TimerEvent: {}
+[2.016953] (-) TimerEvent: {}
+[2.117928] (-) TimerEvent: {}
+[2.218924] (-) TimerEvent: {}
+[2.320190] (-) TimerEvent: {}
+[2.421259] (-) TimerEvent: {}
+[2.522329] (-) TimerEvent: {}
+[2.623392] (-) TimerEvent: {}
+[2.724206] (-) TimerEvent: {}
+[2.739486] (motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.824366] (-) TimerEvent: {}
+[2.925084] (-) TimerEvent: {}
+[3.025816] (-) TimerEvent: {}
+[3.126687] (-) TimerEvent: {}
+[3.227919] (-) TimerEvent: {}
+[3.328994] (-) TimerEvent: {}
+[3.430318] (-) TimerEvent: {}
+[3.531742] (-) TimerEvent: {}
+[3.632699] (-) TimerEvent: {}
+[3.733738] (-) TimerEvent: {}
+[3.834740] (-) TimerEvent: {}
+[3.863925] (motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.934868] (-) TimerEvent: {}
+[3.959757] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.035068] (-) TimerEvent: {}
+[4.135986] (-) TimerEvent: {}
+[4.237109] (-) TimerEvent: {}
+[4.339214] (-) TimerEvent: {}
+[4.441315] (-) TimerEvent: {}
+[4.542472] (-) TimerEvent: {}
+[4.643323] (-) TimerEvent: {}
+[4.657632] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.684399] (motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.686313] (motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.689313] (motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.705460] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.743632] (-) TimerEvent: {}
+[4.844464] (-) TimerEvent: {}
+[4.945419] (-) TimerEvent: {}
+[5.046472] (-) TimerEvent: {}
+[5.102275] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.129324] (motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.130388] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.132148] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.146594] (-) TimerEvent: {}
+[5.215774] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.246779] (-) TimerEvent: {}
+[5.347600] (-) TimerEvent: {}
+[5.448396] (-) TimerEvent: {}
+[5.549149] (-) TimerEvent: {}
+[5.650195] (-) TimerEvent: {}
+[5.751013] (-) TimerEvent: {}
+[5.851766] (-) TimerEvent: {}
+[5.952624] (-) TimerEvent: {}
+[6.053601] (-) TimerEvent: {}
+[6.155277] (-) TimerEvent: {}
+[6.208967] (motor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.255516] (-) TimerEvent: {}
+[6.356412] (-) TimerEvent: {}
+[6.457464] (-) TimerEvent: {}
+[6.558526] (-) TimerEvent: {}
+[6.659716] (-) TimerEvent: {}
+[6.760830] (-) TimerEvent: {}
+[6.862186] (-) TimerEvent: {}
+[6.963062] (-) TimerEvent: {}
+[7.063888] (-) TimerEvent: {}
+[7.164723] (-) TimerEvent: {}
+[7.212990] (motor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.265052] (-) TimerEvent: {}
+[7.366866] (-) TimerEvent: {}
+[7.468889] (-) TimerEvent: {}
+[7.570313] (-) TimerEvent: {}
+[7.673473] (-) TimerEvent: {}
+[7.775079] (-) TimerEvent: {}
+[7.868989] (sensors) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors', 'build', '--build-base', '/home/groupl/MarcWS/build/sensors/build', 'install', '--record', '/home/groupl/MarcWS/build/sensors/install.log', '--single-version-externally-managed'], 'cwd': '/home/groupl/MarcWS/src/sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'groupl', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/groupl', 'OLDPWD': '/home/groupl', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1486', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/groupl/MarcWS/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'groupl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'groupl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grouplPi:@/tmp/.ICE-unix/1486,unix/grouplPi:/tmp/.ICE-unix/1486', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/69a8b579_6169_47ac_bdfe_d9498ae3a9f6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/groupl/MarcWS/build/sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.890195] (-) TimerEvent: {}
+[7.993964] (-) TimerEvent: {}
+[8.094907] (-) TimerEvent: {}
+[8.195601] (-) TimerEvent: {}
+[8.210848] (motor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.213318] (motor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/groupl/MarcWS/src/motor/include>\n'}
+[8.214022] (motor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.220771] (motor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.230357] (motor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.231712] (motor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.235603] (motor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.252321] (motor) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.295812] (-) TimerEvent: {}
+[8.310226] (motor) StdoutLine: {'line': b'-- Generating done\n'}
+[8.317176] (motor) StdoutLine: {'line': b'-- Build files have been written to: /home/groupl/MarcWS/build/motor\n'}
+[8.395991] (-) TimerEvent: {}
+[8.441251] (motor) CommandEnded: {'returncode': 0}
+[8.445945] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[8.449517] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/groupl/MarcWS/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/groupl/MarcWS/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'groupl'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/groupl'), ('OLDPWD', '/home/groupl'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1486'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/groupl/MarcWS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'groupl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'groupl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/grouplPi:@/tmp/.ICE-unix/1486,unix/grouplPi:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69a8b579_6169_47ac_bdfe_d9498ae3a9f6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '47'), ('AMENT_PREFIX_PATH', '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/groupl/MarcWS/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble')]), 'shell': False}
+[8.496283] (-) TimerEvent: {}
+[8.597181] (-) TimerEvent: {}
+[8.698032] (-) TimerEvent: {}
+[8.799049] (-) TimerEvent: {}
+[8.803073] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motorpwm.dir/src/motorpwm.cpp.o\x1b[0m\n'}
+[8.899355] (-) TimerEvent: {}
+[9.000480] (-) TimerEvent: {}
+[9.101425] (-) TimerEvent: {}
+[9.202577] (-) TimerEvent: {}
+[9.303567] (-) TimerEvent: {}
+[9.404441] (-) TimerEvent: {}
+[9.505393] (-) TimerEvent: {}
+[9.606202] (-) TimerEvent: {}
+[9.610117] (motor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motorpwm\x1b[0m\n'}
+[9.706360] (-) TimerEvent: {}
+[9.807047] (-) TimerEvent: {}
+[9.878805] (motor) StdoutLine: {'line': b'[100%] Built target motorpwm\n'}
+[9.907246] (-) TimerEvent: {}
+[9.920768] (motor) CommandEnded: {'returncode': 0}
+[10.007480] (-) TimerEvent: {}
+[10.052005] (motor) JobProgress: {'identifier': 'motor', 'progress': 'install'}
+[10.098254] (motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/groupl/MarcWS/build/motor'], 'cwd': '/home/groupl/MarcWS/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'groupl'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/groupl'), ('OLDPWD', '/home/groupl'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1486'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/groupl/MarcWS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'groupl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'groupl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/grouplPi:@/tmp/.ICE-unix/1486,unix/grouplPi:/tmp/.ICE-unix/1486'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69a8b579_6169_47ac_bdfe_d9498ae3a9f6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.132'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '47'), ('AMENT_PREFIX_PATH', '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/groupl/MarcWS/build/motor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble')]), 'shell': False}
+[10.108071] (-) TimerEvent: {}
+[10.135920] (motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.139879] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/lib/motor/motorpwm\n'}
+[10.140930] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/ament_index/resource_index/package_run_dependencies/motor\n'}
+[10.141718] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/ament_index/resource_index/parent_prefix_path/motor\n'}
+[10.143479] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/environment/ament_prefix_path.sh\n'}
+[10.144726] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/environment/ament_prefix_path.dsv\n'}
+[10.146419] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/environment/path.sh\n'}
+[10.147778] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/environment/path.dsv\n'}
+[10.150536] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/local_setup.bash\n'}
+[10.155001] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/local_setup.sh\n'}
+[10.156233] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/local_setup.zsh\n'}
+[10.157346] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/local_setup.dsv\n'}
+[10.158403] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/package.dsv\n'}
+[10.160336] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/ament_index/resource_index/packages/motor\n'}
+[10.161884] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/cmake/motorConfig.cmake\n'}
+[10.162967] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/cmake/motorConfig-version.cmake\n'}
+[10.164393] (motor) StdoutLine: {'line': b'-- Installing: /home/groupl/MarcWS/install/motor/share/motor/package.xml\n'}
+[10.173328] (motor) CommandEnded: {'returncode': 0}
+[10.208323] (-) TimerEvent: {}
+[10.310599] (-) TimerEvent: {}
+[10.345917] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[10.350634] (sensors) StdoutLine: {'line': b'writing ../../build/sensors/sensors.egg-info/PKG-INFO\n'}
+[10.352651] (sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt\n'}
+[10.354228] (sensors) StdoutLine: {'line': b'writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt\n'}
+[10.355547] (sensors) StdoutLine: {'line': b'writing requirements to ../../build/sensors/sensors.egg-info/requires.txt\n'}
+[10.356686] (sensors) StdoutLine: {'line': b'writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt\n'}
+[10.369792] (sensors) StdoutLine: {'line': b"reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[10.374230] (sensors) StdoutLine: {'line': b"writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[10.375234] (sensors) StdoutLine: {'line': b'running build\n'}
+[10.375804] (sensors) StdoutLine: {'line': b'running build_py\n'}
+[10.380363] (sensors) StdoutLine: {'line': b'copying sensors/serialread.py -> /home/groupl/MarcWS/build/sensors/build/lib/sensors\n'}
+[10.382761] (sensors) StdoutLine: {'line': b'running install\n'}
+[10.384305] (sensors) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.386188] (sensors) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.387005] (sensors) StdoutLine: {'line': b'running install_lib\n'}
+[10.392022] (sensors) StdoutLine: {'line': b'copying /home/groupl/MarcWS/build/sensors/build/lib/sensors/serialread.py -> /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors\n'}
+[10.396606] (sensors) StdoutLine: {'line': b'byte-compiling /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors/serialread.py to serialread.cpython-310.pyc\n'}
+[10.400350] (sensors) StdoutLine: {'line': b'running install_data\n'}
+[10.405791] (sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.410751] (-) TimerEvent: {}
+[10.417238] (sensors) StdoutLine: {'line': b"removing '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.420165] (sensors) StdoutLine: {'line': b'Copying ../../build/sensors/sensors.egg-info to /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info\n'}
+[10.427257] (sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[10.511027] (-) TimerEvent: {}
+[10.548987] (sensors) StdoutLine: {'line': b'Installing serialread script to /home/groupl/MarcWS/install/sensors/lib/sensors\n'}
+[10.554283] (sensors) StdoutLine: {'line': b"writing list of installed files to '/home/groupl/MarcWS/build/sensors/install.log'\n"}
+[10.612129] (-) TimerEvent: {}
+[10.695040] (sensors) CommandEnded: {'returncode': 0}
+[10.712284] (-) TimerEvent: {}
+[10.813552] (-) TimerEvent: {}
+[10.914962] (-) TimerEvent: {}
+[10.965152] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[11.015166] (-) TimerEvent: {}
+[11.116043] (-) TimerEvent: {}
+[11.217803] (-) TimerEvent: {}
+[11.307788] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[11.314635] (-) EventReactorShutdown: {}

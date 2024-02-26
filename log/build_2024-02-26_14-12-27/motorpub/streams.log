@@ -1,0 +1,44 @@
+[8.431s] Invoking command in '/home/groupl/MarcWS/src/motorpub': PYTHONPATH=/home/groupl/MarcWS/build/motorpub/prefix_override:/home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motorpub build --build-base /home/groupl/MarcWS/build/motorpub/build install --record /home/groupl/MarcWS/build/motorpub/install.log --single-version-externally-managed
+[9.983s] running egg_info
+[9.984s] creating ../../build/motorpub/motorpub.egg-info
+[9.986s] writing ../../build/motorpub/motorpub.egg-info/PKG-INFO
+[9.990s] writing dependency_links to ../../build/motorpub/motorpub.egg-info/dependency_links.txt
+[9.991s] writing entry points to ../../build/motorpub/motorpub.egg-info/entry_points.txt
+[9.992s] writing requirements to ../../build/motorpub/motorpub.egg-info/requires.txt
+[9.994s] writing top-level names to ../../build/motorpub/motorpub.egg-info/top_level.txt
+[9.995s] writing manifest file '../../build/motorpub/motorpub.egg-info/SOURCES.txt'
+[9.999s] reading manifest file '../../build/motorpub/motorpub.egg-info/SOURCES.txt'
+[10.004s] writing manifest file '../../build/motorpub/motorpub.egg-info/SOURCES.txt'
+[10.005s] running build
+[10.008s] running build_py
+[10.009s] creating /home/groupl/MarcWS/build/motorpub/build
+[10.010s] creating /home/groupl/MarcWS/build/motorpub/build/lib
+[10.011s] creating /home/groupl/MarcWS/build/motorpub/build/lib/motorpub
+[10.012s] copying motorpub/__init__.py -> /home/groupl/MarcWS/build/motorpub/build/lib/motorpub
+[10.013s] copying motorpub/motorpub.py -> /home/groupl/MarcWS/build/motorpub/build/lib/motorpub
+[10.017s] running install
+[10.020s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.020s]   warnings.warn(
+[10.022s] running install_lib
+[10.024s] creating /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub
+[10.024s] copying /home/groupl/MarcWS/build/motorpub/build/lib/motorpub/__init__.py -> /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub
+[10.026s] copying /home/groupl/MarcWS/build/motorpub/build/lib/motorpub/motorpub.py -> /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub
+[10.027s] byte-compiling /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub/__init__.py to __init__.cpython-310.pyc
+[10.028s] byte-compiling /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub/motorpub.py to motorpub.cpython-310.pyc
+[10.030s]   File "/home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub/motorpub.py", line 6
+[10.030s]     		super().__init))('motor publisher')
+[10.031s]     		              ^
+[10.032s] SyntaxError: unmatched ')'
+[10.033s] 
+[10.034s] running install_data
+[10.036s] creating /home/groupl/MarcWS/install/motorpub/share/ament_index
+[10.036s] creating /home/groupl/MarcWS/install/motorpub/share/ament_index/resource_index
+[10.038s] creating /home/groupl/MarcWS/install/motorpub/share/ament_index/resource_index/packages
+[10.039s] copying resource/motorpub -> /home/groupl/MarcWS/install/motorpub/share/ament_index/resource_index/packages
+[10.040s] copying package.xml -> /home/groupl/MarcWS/install/motorpub/share/motorpub
+[10.042s] running install_egg_info
+[10.052s] Copying ../../build/motorpub/motorpub.egg-info to /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub-0.0.0-py3.10.egg-info
+[10.060s] running install_scripts
+[10.196s] Installing motorpub script to /home/groupl/MarcWS/install/motorpub/lib/motorpub
+[10.200s] writing list of installed files to '/home/groupl/MarcWS/build/motorpub/install.log'
+[11.108s] Invoked command in '/home/groupl/MarcWS/src/motorpub' returned '0': PYTHONPATH=/home/groupl/MarcWS/build/motorpub/prefix_override:/home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motorpub build --build-base /home/groupl/MarcWS/build/motorpub/build install --record /home/groupl/MarcWS/build/motorpub/install.log --single-version-externally-managed

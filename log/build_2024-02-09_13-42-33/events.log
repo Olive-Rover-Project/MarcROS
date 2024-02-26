@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001930] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.002719] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.099042] (-) TimerEvent: {}
+[0.199723] (-) TimerEvent: {}
+[0.300491] (-) TimerEvent: {}
+[0.401193] (-) TimerEvent: {}
+[0.501926] (-) TimerEvent: {}
+[0.602859] (-) TimerEvent: {}
+[0.704106] (-) TimerEvent: {}
+[0.804900] (-) TimerEvent: {}
+[0.905611] (-) TimerEvent: {}
+[1.006282] (-) TimerEvent: {}
+[1.106911] (-) TimerEvent: {}
+[1.207599] (-) TimerEvent: {}
+[1.308391] (-) TimerEvent: {}
+[1.409141] (-) TimerEvent: {}
+[1.510104] (-) TimerEvent: {}
+[1.610968] (-) TimerEvent: {}
+[1.711697] (-) TimerEvent: {}
+[1.812424] (-) TimerEvent: {}
+[1.913059] (-) TimerEvent: {}
+[2.013722] (-) TimerEvent: {}
+[2.114360] (-) TimerEvent: {}
+[2.215054] (-) TimerEvent: {}
+[2.315784] (-) TimerEvent: {}
+[2.416500] (-) TimerEvent: {}
+[2.517307] (-) TimerEvent: {}
+[2.617975] (-) TimerEvent: {}
+[2.718913] (-) TimerEvent: {}
+[2.819781] (-) TimerEvent: {}
+[2.921187] (-) TimerEvent: {}
+[2.968120] (sensors) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors', 'build', '--build-base', '/home/groupl/MarcWS/build/sensors/build', 'install', '--record', '/home/groupl/MarcWS/build/sensors/install.log', '--single-version-externally-managed'], 'cwd': '/home/groupl/MarcWS/src/sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'groupl', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/groupl', 'OLDPWD': '/home/groupl', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1590', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'groupl', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'groupl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grouplPi:@/tmp/.ICE-unix/1251,unix/grouplPi:/tmp/.ICE-unix/1251', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d280c7e3_0fab_45d7_b7da_68f2ed0234ac', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1QKXI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.175', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '47', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/groupl/MarcWS/build/sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:'}, 'shell': False}
+[3.021349] (-) TimerEvent: {}
+[3.122059] (-) TimerEvent: {}
+[3.222745] (-) TimerEvent: {}
+[3.323723] (-) TimerEvent: {}
+[3.424644] (-) TimerEvent: {}
+[3.525285] (-) TimerEvent: {}
+[3.625946] (-) TimerEvent: {}
+[3.726631] (-) TimerEvent: {}
+[3.810726] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[3.813016] (sensors) StdoutLine: {'line': b'writing ../../build/sensors/sensors.egg-info/PKG-INFO\n'}
+[3.817340] (sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt\n'}
+[3.818467] (sensors) StdoutLine: {'line': b'writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt\n'}
+[3.819178] (sensors) StdoutLine: {'line': b'writing requirements to ../../build/sensors/sensors.egg-info/requires.txt\n'}
+[3.819826] (sensors) StdoutLine: {'line': b'writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt\n'}
+[3.826884] (-) TimerEvent: {}
+[3.827544] (sensors) StdoutLine: {'line': b"reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[3.831819] (sensors) StdoutLine: {'line': b"writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[3.832603] (sensors) StdoutLine: {'line': b'running build\n'}
+[3.833100] (sensors) StdoutLine: {'line': b'running build_py\n'}
+[3.834867] (sensors) StdoutLine: {'line': b'copying sensors/serialread.py -> /home/groupl/MarcWS/build/sensors/build/lib/sensors\n'}
+[3.836473] (sensors) StdoutLine: {'line': b'running install\n'}
+[3.837666] (sensors) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.838331] (sensors) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.839105] (sensors) StdoutLine: {'line': b'running install_lib\n'}
+[3.842659] (sensors) StdoutLine: {'line': b'copying /home/groupl/MarcWS/build/sensors/build/lib/sensors/serialread.py -> /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors\n'}
+[3.846046] (sensors) StdoutLine: {'line': b'byte-compiling /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors/serialread.py to serialread.cpython-310.pyc\n'}
+[3.848257] (sensors) StdoutLine: {'line': b'running install_data\n'}
+[3.852044] (sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.860646] (sensors) StdoutLine: {'line': b"removing '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.863118] (sensors) StdoutLine: {'line': b'Copying ../../build/sensors/sensors.egg-info to /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info\n'}
+[3.869220] (sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[3.927092] (-) TimerEvent: {}
+[3.946574] (sensors) StdoutLine: {'line': b'Installing serialread script to /home/groupl/MarcWS/install/sensors/lib/sensors\n'}
+[3.953052] (sensors) StdoutLine: {'line': b"writing list of installed files to '/home/groupl/MarcWS/build/sensors/install.log'\n"}
+[4.027465] (-) TimerEvent: {}
+[4.073227] (sensors) CommandEnded: {'returncode': 0}
+[4.127638] (-) TimerEvent: {}
+[4.229856] (-) TimerEvent: {}
+[4.251923] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[4.255114] (-) EventReactorShutdown: {}

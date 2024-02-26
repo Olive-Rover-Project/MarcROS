@@ -1,0 +1,30 @@
+[8.732s] Invoking command in '/home/groupl/MarcWS/src/motorpub': PYTHONPATH=/home/groupl/MarcWS/build/motorpub/prefix_override:/home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motorpub build --build-base /home/groupl/MarcWS/build/motorpub/build install --record /home/groupl/MarcWS/build/motorpub/install.log --single-version-externally-managed
+[10.346s] running egg_info
+[10.348s] writing ../../build/motorpub/motorpub.egg-info/PKG-INFO
+[10.353s] writing dependency_links to ../../build/motorpub/motorpub.egg-info/dependency_links.txt
+[10.355s] writing entry points to ../../build/motorpub/motorpub.egg-info/entry_points.txt
+[10.356s] writing requirements to ../../build/motorpub/motorpub.egg-info/requires.txt
+[10.357s] writing top-level names to ../../build/motorpub/motorpub.egg-info/top_level.txt
+[10.365s] reading manifest file '../../build/motorpub/motorpub.egg-info/SOURCES.txt'
+[10.369s] writing manifest file '../../build/motorpub/motorpub.egg-info/SOURCES.txt'
+[10.370s] running build
+[10.371s] running build_py
+[10.375s] running install
+[10.377s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.391s]   warnings.warn(
+[10.399s] running install_lib
+[10.403s] byte-compiling /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub/motorpub.py to motorpub.cpython-310.pyc
+[10.404s] running install_data
+[10.404s]   File "/home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub/motorpub.py", line 6
+[10.405s]     		super().__init))('motor publisher')
+[10.406s]     		              ^
+[10.407s] SyntaxError: unmatched ')'
+[10.407s] 
+[10.411s] copying package.xml -> /home/groupl/MarcWS/install/motorpub/share/motorpub
+[10.413s] running install_egg_info
+[10.415s] removing '/home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub-0.0.0-py3.10.egg-info' (and everything under it)
+[10.416s] Copying ../../build/motorpub/motorpub.egg-info to /home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages/motorpub-0.0.0-py3.10.egg-info
+[10.422s] running install_scripts
+[10.553s] Installing motorpub script to /home/groupl/MarcWS/install/motorpub/lib/motorpub
+[10.559s] writing list of installed files to '/home/groupl/MarcWS/build/motorpub/install.log'
+[10.845s] Invoked command in '/home/groupl/MarcWS/src/motorpub' returned '0': PYTHONPATH=/home/groupl/MarcWS/build/motorpub/prefix_override:/home/groupl/MarcWS/install/motorpub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motorpub build --build-base /home/groupl/MarcWS/build/motorpub/build install --record /home/groupl/MarcWS/build/motorpub/install.log --single-version-externally-managed

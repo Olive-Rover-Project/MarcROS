@@ -1,0 +1,3 @@
+[console_scripts]
+serialread = Sensors.serialread:main
+

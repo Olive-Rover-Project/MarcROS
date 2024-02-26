@@ -1,0 +1,23 @@
+[8.200s] Invoking command in '/home/groupl/MarcWS/src/sensors': PYTHONPATH=/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors build --build-base /home/groupl/MarcWS/build/sensors/build install --record /home/groupl/MarcWS/build/sensors/install.log --single-version-externally-managed
+[10.695s] running egg_info
+[10.698s] writing ../../build/sensors/sensors.egg-info/PKG-INFO
+[10.705s] writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt
+[10.706s] writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt
+[10.707s] writing requirements to ../../build/sensors/sensors.egg-info/requires.txt
+[10.708s] writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt
+[10.720s] reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'
+[10.734s] writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'
+[10.735s] running build
+[10.736s] running build_py
+[10.739s] running install
+[10.740s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.741s]   warnings.warn(
+[10.741s] running install_lib
+[10.749s] running install_data
+[10.756s] running install_egg_info
+[10.767s] removing '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info' (and everything under it)
+[10.769s] Copying ../../build/sensors/sensors.egg-info to /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info
+[10.780s] running install_scripts
+[10.944s] Installing serialread script to /home/groupl/MarcWS/install/sensors/lib/sensors
+[10.959s] writing list of installed files to '/home/groupl/MarcWS/build/sensors/install.log'
+[11.253s] Invoked command in '/home/groupl/MarcWS/src/sensors' returned '0': PYTHONPATH=/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors build --build-base /home/groupl/MarcWS/build/sensors/build install --record /home/groupl/MarcWS/build/sensors/install.log --single-version-externally-managed

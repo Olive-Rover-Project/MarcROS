@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.001616] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.002203] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.002293] (motor) JobStarted: {'identifier': 'motor'}
+[0.099052] (-) TimerEvent: {}
+[0.201499] (-) TimerEvent: {}
+[0.302579] (-) TimerEvent: {}
+[0.403630] (-) TimerEvent: {}
+[0.446481] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.503813] (-) TimerEvent: {}
+[0.604916] (-) TimerEvent: {}
+[0.705685] (-) TimerEvent: {}
+[0.806677] (-) TimerEvent: {}
+[0.907857] (-) TimerEvent: {}
+[1.008677] (-) TimerEvent: {}
+[1.109640] (-) TimerEvent: {}
+[1.211218] (-) TimerEvent: {}
+[1.312420] (-) TimerEvent: {}
+[1.413110] (-) TimerEvent: {}
+[1.513765] (-) TimerEvent: {}
+[1.614401] (-) TimerEvent: {}
+[1.715061] (-) TimerEvent: {}
+[1.815801] (-) TimerEvent: {}
+[1.916452] (-) TimerEvent: {}
+[2.017336] (-) TimerEvent: {}
+[2.118439] (-) TimerEvent: {}
+[2.219808] (-) TimerEvent: {}
+[2.320846] (-) TimerEvent: {}
+[2.421597] (-) TimerEvent: {}
+[2.522293] (-) TimerEvent: {}
+[2.623034] (-) TimerEvent: {}
+[2.723911] (-) TimerEvent: {}
+[2.824604] (-) TimerEvent: {}
+[2.925367] (-) TimerEvent: {}
+[3.026316] (-) TimerEvent: {}
+[3.126953] (-) TimerEvent: {}
+[3.227752] (-) TimerEvent: {}
+[3.328439] (-) TimerEvent: {}
+[3.429105] (-) TimerEvent: {}
+[3.529923] (-) TimerEvent: {}
+[3.631151] (-) TimerEvent: {}
+[3.731820] (-) TimerEvent: {}
+[3.832724] (-) TimerEvent: {}
+[3.933881] (-) TimerEvent: {}
+[4.034784] (-) TimerEvent: {}
+[4.135582] (-) TimerEvent: {}
+[4.236440] (-) TimerEvent: {}
+[4.337255] (-) TimerEvent: {}
+[4.438016] (-) TimerEvent: {}
+[4.539124] (-) TimerEvent: {}
+[4.639953] (-) TimerEvent: {}
+[4.740676] (-) TimerEvent: {}
+[4.841375] (-) TimerEvent: {}
+[4.942108] (-) TimerEvent: {}
+[5.043080] (-) TimerEvent: {}
+[5.144699] (-) TimerEvent: {}
+[5.245614] (-) TimerEvent: {}
+[5.346426] (-) TimerEvent: {}
+[5.447108] (-) TimerEvent: {}
+[5.547916] (-) TimerEvent: {}
+[5.648811] (-) TimerEvent: {}
+[5.750049] (-) TimerEvent: {}
+[5.851165] (-) TimerEvent: {}
+[5.951956] (-) TimerEvent: {}
+[6.052778] (-) TimerEvent: {}
+[6.153612] (-) TimerEvent: {}
+[6.254713] (-) TimerEvent: {}
+[6.357663] (-) TimerEvent: {}
+[6.458758] (-) TimerEvent: {}
+[6.560831] (-) TimerEvent: {}
+[6.658485] (motor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor', 'build', '--build-base', '/home/groupl/MarcWS/build/motor/build', 'install', '--record', '/home/groupl/MarcWS/build/motor/install.log', '--single-version-externally-managed'], 'cwd': '/home/groupl/MarcWS/src/motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'groupl', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/groupl', 'OLDPWD': '/home/groupl', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1486', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/groupl/MarcWS/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'groupl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'groupl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grouplPi:@/tmp/.ICE-unix/1486,unix/grouplPi:/tmp/.ICE-unix/1486', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/69a8b579_6169_47ac_bdfe_d9498ae3a9f6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/groupl/MarcWS/build/motor', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/groupl/MarcWS/build/motor/prefix_override:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.663653] (-) TimerEvent: {}
+[6.677328] (sensors) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors', 'build', '--build-base', '/home/groupl/MarcWS/build/sensors/build', 'install', '--record', '/home/groupl/MarcWS/build/sensors/install.log', '--single-version-externally-managed'], 'cwd': '/home/groupl/MarcWS/src/sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'groupl', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/groupl', 'OLDPWD': '/home/groupl', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1486', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/groupl/MarcWS/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'groupl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'groupl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/groupl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/grouplPi:@/tmp/.ICE-unix/1486,unix/grouplPi:/tmp/.ICE-unix/1486', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/69a8b579_6169_47ac_bdfe_d9498ae3a9f6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/home/groupl/MarcWS/install/sensors:/home/groupl/MarcWS/install/Sensors:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/groupl/MarcWS/build/sensors', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=32ecdc142ecddad07f01e8ea65d73069', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/groupl/MarcWS/build/sensors/prefix_override:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages:/home/groupl/MarcWS/install/Sensors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.763921] (-) TimerEvent: {}
+[6.864997] (-) TimerEvent: {}
+[6.966460] (-) TimerEvent: {}
+[7.067801] (-) TimerEvent: {}
+[7.168590] (-) TimerEvent: {}
+[7.269522] (-) TimerEvent: {}
+[7.370292] (-) TimerEvent: {}
+[7.471062] (-) TimerEvent: {}
+[7.571905] (-) TimerEvent: {}
+[7.672710] (-) TimerEvent: {}
+[7.773809] (-) TimerEvent: {}
+[7.874566] (-) TimerEvent: {}
+[7.975349] (-) TimerEvent: {}
+[8.076084] (-) TimerEvent: {}
+[8.176893] (-) TimerEvent: {}
+[8.277972] (-) TimerEvent: {}
+[8.379801] (-) TimerEvent: {}
+[8.471511] (motor) StdoutLine: {'line': b'running egg_info\n'}
+[8.472456] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[8.474191] (motor) StdoutLine: {'line': b'creating ../../build/motor/motor.egg-info\n'}
+[8.474981] (sensors) StdoutLine: {'line': b'writing ../../build/sensors/sensors.egg-info/PKG-INFO\n'}
+[8.475811] (motor) StdoutLine: {'line': b'writing ../../build/motor/motor.egg-info/PKG-INFO\n'}
+[8.476559] (motor) StdoutLine: {'line': b'writing dependency_links to ../../build/motor/motor.egg-info/dependency_links.txt\n'}
+[8.477270] (sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt\n'}
+[8.478205] (motor) StdoutLine: {'line': b'writing entry points to ../../build/motor/motor.egg-info/entry_points.txt\n'}
+[8.478893] (motor) StdoutLine: {'line': b'writing requirements to ../../build/motor/motor.egg-info/requires.txt\n'}
+[8.479717] (sensors) StdoutLine: {'line': b'writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt\n'}
+[8.480466] (-) TimerEvent: {}
+[8.481096] (motor) StdoutLine: {'line': b'writing top-level names to ../../build/motor/motor.egg-info/top_level.txt\n'}
+[8.481712] (sensors) StdoutLine: {'line': b'writing requirements to ../../build/sensors/sensors.egg-info/requires.txt\n'}
+[8.482202] (sensors) StdoutLine: {'line': b'writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt\n'}
+[8.482623] (motor) StdoutLine: {'line': b"writing manifest file '../../build/motor/motor.egg-info/SOURCES.txt'\n"}
+[8.491103] (motor) StdoutLine: {'line': b"reading manifest file '../../build/motor/motor.egg-info/SOURCES.txt'\n"}
+[8.491961] (sensors) StdoutLine: {'line': b"reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[8.494530] (motor) StdoutLine: {'line': b"writing manifest file '../../build/motor/motor.egg-info/SOURCES.txt'\n"}
+[8.495335] (motor) StdoutLine: {'line': b'running build\n'}
+[8.496365] (motor) StdoutLine: {'line': b'running build_py\n'}
+[8.497613] (sensors) StdoutLine: {'line': b"writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[8.498086] (sensors) StdoutLine: {'line': b'running build\n'}
+[8.498608] (sensors) StdoutLine: {'line': b'running build_py\n'}
+[8.499302] (motor) StdoutLine: {'line': b'creating /home/groupl/MarcWS/build/motor/build\n'}
+[8.499799] (motor) StdoutLine: {'line': b'creating /home/groupl/MarcWS/build/motor/build/lib\n'}
+[8.501050] (motor) StdoutLine: {'line': b'creating /home/groupl/MarcWS/build/motor/build/lib/motor\n'}
+[8.502152] (motor) StdoutLine: {'line': b'copying motor/motorpwm.py -> /home/groupl/MarcWS/build/motor/build/lib/motor\n'}
+[8.502664] (motor) StdoutLine: {'line': b'copying motor/__init__.py -> /home/groupl/MarcWS/build/motor/build/lib/motor\n'}
+[8.503161] (motor) StdoutLine: {'line': b'running install\n'}
+[8.503944] (sensors) StdoutLine: {'line': b'running install\n'}
+[8.504419] (motor) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.505086] (motor) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.505587] (sensors) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.506358] (sensors) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.506919] (motor) StdoutLine: {'line': b'running install_lib\n'}
+[8.508120] (sensors) StdoutLine: {'line': b'running install_lib\n'}
+[8.511903] (motor) StdoutLine: {'line': b'creating /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor\n'}
+[8.513145] (motor) StdoutLine: {'line': b'copying /home/groupl/MarcWS/build/motor/build/lib/motor/motorpwm.py -> /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor\n'}
+[8.513946] (motor) StdoutLine: {'line': b'copying /home/groupl/MarcWS/build/motor/build/lib/motor/__init__.py -> /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor\n'}
+[8.514707] (motor) StdoutLine: {'line': b'byte-compiling /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor/motorpwm.py to motorpwm.cpython-310.pyc\n'}
+[8.515457] (sensors) StdoutLine: {'line': b'running install_data\n'}
+[8.516309] (motor) StdoutLine: {'line': b'byte-compiling /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor/__init__.py to __init__.cpython-310.pyc\n'}
+[8.517582] (motor) StdoutLine: {'line': b'running install_data\n'}
+[8.519146] (sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.521108] (motor) StdoutLine: {'line': b'copying resource/motor -> /home/groupl/MarcWS/install/motor/share/ament_index/resource_index/packages\n'}
+[8.522967] (motor) StdoutLine: {'line': b'copying package.xml -> /home/groupl/MarcWS/install/motor/share/motor\n'}
+[8.524780] (motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.533345] (sensors) StdoutLine: {'line': b"removing '/home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.533961] (motor) StdoutLine: {'line': b'Copying ../../build/motor/motor.egg-info to /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info\n'}
+[8.534949] (sensors) StdoutLine: {'line': b'Copying ../../build/sensors/sensors.egg-info to /home/groupl/MarcWS/install/sensors/lib/python3.10/site-packages/sensors-0.0.0-py3.10.egg-info\n'}
+[8.539154] (motor) StdoutLine: {'line': b'running install_scripts\n'}
+[8.541798] (sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[8.580654] (-) TimerEvent: {}
+[8.681408] (-) TimerEvent: {}
+[8.686462] (motor) StdoutLine: {'line': b'Installing motorpwm script to /home/groupl/MarcWS/install/motor/lib/motor\n'}
+[8.687074] (sensors) StdoutLine: {'line': b'Installing serialread script to /home/groupl/MarcWS/install/sensors/lib/sensors\n'}
+[8.688848] (motor) StdoutLine: {'line': b"writing list of installed files to '/home/groupl/MarcWS/build/motor/install.log'\n"}
+[8.696309] (sensors) StdoutLine: {'line': b"writing list of installed files to '/home/groupl/MarcWS/build/sensors/install.log'\n"}
+[8.781921] (-) TimerEvent: {}
+[8.883323] (-) TimerEvent: {}
+[8.887790] (motor) CommandEnded: {'returncode': 0}
+[8.983505] (-) TimerEvent: {}
+[9.084179] (-) TimerEvent: {}
+[9.185212] (-) TimerEvent: {}
+[9.257002] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[9.261080] (sensors) CommandEnded: {'returncode': 0}
+[9.285394] (-) TimerEvent: {}
+[9.386221] (-) TimerEvent: {}
+[9.487266] (-) TimerEvent: {}
+[9.520925] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[9.527953] (-) EventReactorShutdown: {}

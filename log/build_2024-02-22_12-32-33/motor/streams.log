@@ -1,0 +1,27 @@
+[48.324s] Invoking command in '/home/groupl/MarcWS/src/motor': PYTHONPATH=/home/groupl/MarcWS/build/motor/prefix_override:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor build --build-base /home/groupl/MarcWS/build/motor/build install --record /home/groupl/MarcWS/build/motor/install.log --single-version-externally-managed
+[52.236s] running egg_info
+[52.242s] writing ../../build/motor/motor.egg-info/PKG-INFO
+[52.245s] writing dependency_links to ../../build/motor/motor.egg-info/dependency_links.txt
+[52.246s] writing entry points to ../../build/motor/motor.egg-info/entry_points.txt
+[52.246s] writing requirements to ../../build/motor/motor.egg-info/requires.txt
+[52.246s] writing top-level names to ../../build/motor/motor.egg-info/top_level.txt
+[52.261s] reading manifest file '../../build/motor/motor.egg-info/SOURCES.txt'
+[52.267s] writing manifest file '../../build/motor/motor.egg-info/SOURCES.txt'
+[52.272s] running build
+[52.272s] running build_py
+[52.278s] copying motor/motorpwm.py -> /home/groupl/MarcWS/build/motor/build/lib/motor
+[52.287s] running install
+[52.289s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[52.289s]   warnings.warn(
+[52.289s] running install_lib
+[52.290s] copying /home/groupl/MarcWS/build/motor/build/lib/motor/motorpwm.py -> /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor
+[52.294s] byte-compiling /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor/motorpwm.py to motorpwm.cpython-310.pyc
+[52.295s] Sorry: IndentationError: expected an indented block after 'while' statement on line 14 (motorpwm.py, line 28)
+[52.296s] running install_data
+[52.303s] running install_egg_info
+[52.315s] removing '/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info' (and everything under it)
+[52.318s] Copying ../../build/motor/motor.egg-info to /home/groupl/MarcWS/install/motor/lib/python3.10/site-packages/motor-0.0.0-py3.10.egg-info
+[52.325s] running install_scripts
+[52.892s] Installing motorpwm script to /home/groupl/MarcWS/install/motor/lib/motor
+[52.893s] writing list of installed files to '/home/groupl/MarcWS/build/motor/install.log'
+[53.135s] Invoked command in '/home/groupl/MarcWS/src/motor' returned '0': PYTHONPATH=/home/groupl/MarcWS/build/motor/prefix_override:/home/groupl/MarcWS/install/motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor build --build-base /home/groupl/MarcWS/build/motor/build install --record /home/groupl/MarcWS/build/motor/install.log --single-version-externally-managed
